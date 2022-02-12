@@ -5,10 +5,10 @@ let second = "Jestem świetnym programistą";
 
 function longest (x, y) {
     if (x.length > y.length) {
-        console.log(x);
-    } else {
-        console.log(y);
+        return x
+      } else {
+        return y
+      }
     }
-}
 
 console.log(longest(first,second));
